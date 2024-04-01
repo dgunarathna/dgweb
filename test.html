@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: rgb(201, 201, 201);
+        height: 200vh;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        color: rgb(255, 255, 255);
+        background-color: blueviolet;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      .c-white {
+        background-color: blue;
+      }
+    </style>
+
+    <a href="/index.html">Home</a>
+
+    <div class="box a" data-lag="2">a</div>
+    <br />
+    <div class="box a" data-lag="1">a</div>
+    <br />
+    <div class="box a" data-lag="0">a</div>
+    <br />
+    <div class="box b">b</div>
+    <br />
+    <div class="box b">b</div>
+    <br />
+    <div class="box c">c</div>
+    <br />
+    <div class="box b">b</div>
+    <br />
+    <div class="box b">b</div>
+    <br />
+    <div class="box b">b</div>
+    <br />
+    <div class="box b">b</div>
+    <br />
+    <div class="box c" data-lag="2">c</div>
+    <br />
+    <div class="box a">a</div>
+    <br />
+    <div class="box a">a</div>
+    <br />
+    <div class="box c" data-lag="5">c</div>
+    <br />
+    <div class="box a">a</div>
+    <br />
+    <div class="box b">b</div>
+    <br />
+    <div class="box b">b</div>
+    <br />
+
+    <div class="box c" data-lag="2">c</div>
+    <br />
+    <div class="box c" data-lag="7">c</div>
+    <br />
+    <div class="box c" data-lag="2">c</div>
+    <br />
+    <div class="box d">d</div>
+    <br />
+    <div class="box a">a</div>
+    <br />
+    <div class="box a">a</div>
+    <br />
+    <div class="box b">b</div>
+    <br />
+    <div class="box b">b</div>
+    <br />
+
+    <script>
+      gsap.to(".c", {
+        scrollTrigger: {
+          trigger: ".c",
+          scrub: 1,
+          markers: true,
+          start: "top bottom",
+          end: "bottom center",
+          toggleClass: ".c-white",
+        },
+        x: 1100,
+        opacity: 1,
+        //  stagger: 1,
+      });
+
+      ScrollTrigger.create({
+        tigger: ".c",
+        start: "top 80%",
+        end: "top 50%",
+        markers: true,
+        toggleClass: ".c-white",
+      });
+
+      // gsap.registerPlugin(ScrollTrigger);
+      //     gsap.to(".c", {
+      //         x: 300,
+      //         duration:3,
+      //         scrollTrigger: {
+      //             trigger: " .d",
+      //             markers: true,
+      //         },
+
+      //     });
+    </script>
+  </body>
+</html>

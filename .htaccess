@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ https://www.dhanushkagunarathna.com/$1.html [L]
+RewriteRule ^([^/]+)/?$ $1.html [L]

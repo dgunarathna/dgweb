@@ -93,8 +93,8 @@ a:hover {
     height: 70px;
     filter: brightness(1);
     mix-blend-mode: difference;
-    position: absolute;
-    /* background-color: #161617; */
+    position: fixed;
+    background-color: #00000080;
     gap: 30px;
 }
 

@@ -210,16 +210,17 @@ blocks.forEach(function(block) {
 
 
 
-    // gsap.to(".imgs", {
-    //     scrollTrigger: {
-    //         trigger: ".imgs",
-    //         scrub: 1,
-    //         start: "bottom center",
-    //     },
-    //      x: 500,
-    //      width: "0%",
-    //      rotation: 180,
-    //      duration: 9,
-    //      stagger: 0.8,
-    //      delay: 0,
-    //     });
+    gsap.to(".img1", {
+        scrollTrigger: {
+            trigger: ".img1",
+            // scrub: 1,
+            // start: "bottom center",
+            toggleActions: "play none none none",
+        },
+         x: 500,
+         width: "0%",
+         rotation: 180,
+         duration: 9,
+         stagger: 0.8,
+         delay: 0,
+        });

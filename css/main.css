@@ -220,6 +220,7 @@ a:hover {
 
 video{
     margin-bottom: 50px;
+    mix-blend-mode: difference;
 }
 
 .line {

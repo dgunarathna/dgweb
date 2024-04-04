@@ -69,6 +69,7 @@ gsap.from("#Title1", 1.2, {
   y: 100,
   ease: "power3.inOut",
   opacity: 0,
+  
 });
 
 

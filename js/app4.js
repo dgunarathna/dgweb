@@ -19,18 +19,18 @@ blocks.forEach(function (block) {
 
 
 
-const videos = document.querySelectorAll('.video');
+// const videos = document.querySelectorAll('.video');
 
-videos.forEach(video => {
-  video.addEventListener('mouseenter', () => {
-    video.play();
-  });
+// videos.forEach(video => {
+//   video.addEventListener('mouseenter', () => {
+//     video.play();
+//   });
   
-  video.addEventListener('mouseleave', () => {
-    video.pause();
-    video.currentTime = 0;
-  });
-});
+//   video.addEventListener('mouseleave', () => {
+//     video.pause();
+//     video.currentTime = 0;
+//   });
+// });
 
 
 

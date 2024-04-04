@@ -273,6 +273,12 @@ img {
 }
 
 
+
+video, .video{
+    mix-blend-mode: difference;
+}
+
+
 @keyframes draw{
     0%{
         stroke-dashoffset: 4500;

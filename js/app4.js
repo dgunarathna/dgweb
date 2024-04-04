@@ -16,21 +16,21 @@ blocks.forEach(function (block) {
   });
 });
 
+//----------------------------------------
 
 
+// const videos = document.querySelectorAll('.video');
 
-const videos = document.querySelectorAll('.video');
-
-videos.forEach(video => {
-  video.addEventListener('mouseenter', () => {
-    video.play();
-  });
+// videos.forEach(video => {
+//   video.addEventListener('mouseenter', () => {
+//     video.play();
+//   });
   
-  video.addEventListener('mouseleave', () => {
-    video.pause();
-    video.currentTime = 0;
-  });
-});
+//   video.addEventListener('mouseleave', () => {
+//     video.pause();
+//     video.currentTime = 0;
+//   });
+// });
 
 
 
@@ -332,9 +332,9 @@ gsap.from("#img6", 1.5, {
   opacity: 1,
 });
 
-gsap.from("#img7", 1.5, {
+gsap.from("#img7, .video", 1.5, {
   scrollTrigger: {
-    trigger: " #img7",
+    trigger: " #img7, .video",
     // markers: true,
     start: "top bottom",
     end: "top center",

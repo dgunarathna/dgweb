@@ -17,6 +17,8 @@ blocks.forEach(function (block) {
 });
 
 
+
+
 const videos = document.querySelectorAll('.video');
 
 videos.forEach(video => {

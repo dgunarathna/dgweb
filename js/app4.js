@@ -49,7 +49,7 @@ gsap.from(" .block", 1.2, {
     // markers: true,
   },
   width: "0px",
-  scale: 1,
+  // scale: 1,
   ease: "power3.inOut",
   delay: 0,
   stagger: 0.2,

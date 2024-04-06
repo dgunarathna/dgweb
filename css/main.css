@@ -272,7 +272,9 @@ img {
     animation: draw 8s ease;
 }
 
-
+.Hero{
+    mix-blend-mode: difference;
+}
 
 video, .video{
     mix-blend-mode: difference;

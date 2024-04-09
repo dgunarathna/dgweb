@@ -54,6 +54,25 @@ gsap.from(" .block", 1.2, {
   delay: 0,
   stagger: 0.2,
 });
+
+
+gsap.from(".text", 1.2, {
+  scrollTrigger: {
+    trigger: ".text",
+    // scrub: 1,
+    // markers: true,
+    start: "top bottom",
+    end: "top center",
+    toggleActions: "play none none none",
+  },
+
+  y: 30,
+  ease: "power3.inOut",
+  opacity: 0,
+  
+});
+
+
 // text floating-----------------------------------------
 
 gsap.from("#Title1", 1.2, {

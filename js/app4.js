@@ -69,8 +69,28 @@ gsap.from(".text", 1.2, {
   y: 30,
   ease: "power3.inOut",
   opacity: 0,
+  delay:0.5,
   
 });
+
+
+gsap.from(".header_container", 1.2, {
+  scrollTrigger: {
+    trigger: ".header_container",
+    // scrub: 1,
+    // markers: true,
+    start: "top bottom",
+    end: "top center",
+    toggleActions: "play none none none",
+  },
+
+  y: -30,
+  ease: "power3.inOut",
+  opacity: 0,
+  delay:0.5,
+  
+});
+
 
 
 // text floating-----------------------------------------

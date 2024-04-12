@@ -270,8 +270,7 @@ gsap.from(".btn", 1.2,{
   ease: "power3.inOut",
   opacity: 0,
   stagger: 0.2,
-  delay: 0
-  // width: 0
+  delay: 0.5
 })
 
 

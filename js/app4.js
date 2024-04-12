@@ -37,8 +37,18 @@ blocks.forEach(function (block) {
 
 
 
+gsap.from(".reveler", 1,{
+  width: "0",
+  ease: "power3.inOut",
+  delay: 0,
+})
 
 
+gsap.to(".reveler", 0.8,{
+  left: "100%",
+  ease: "power3.inOut",
+  delay: 1,
+})
 
 
 // animation-----------------------------------------
@@ -51,7 +61,7 @@ gsap.from(" .block", 1.2, {
   width: "0px",
   // scale: 1,
   ease: "power3.inOut",
-  delay: 0,
+  delay: 1,
   stagger: 0.2,
 });
 
@@ -69,7 +79,7 @@ gsap.from(".text", 1.2, {
   y: 30,
   ease: "power3.inOut",
   opacity: 0,
-  delay:0.5,
+  delay: 1.5,
   
 });
 
@@ -87,7 +97,7 @@ gsap.from(".header_container", 1.2, {
   y: -30,
   ease: "power3.inOut",
   opacity: 0,
-  delay:0.5,
+  delay: 1.2,
   
 });
 
@@ -108,6 +118,7 @@ gsap.from("#Title1", 1.2, {
   y: 100,
   ease: "power3.inOut",
   opacity: 0,
+  delay: 1,
   
 });
 
@@ -126,6 +137,7 @@ gsap.from("#Services", 1.2, {
   y: 100,
   ease: "power3.inOut",
   opacity: 0,
+  
 });
 
 gsap.from("#Brief", 1.2, {
@@ -258,8 +270,12 @@ gsap.from(".btn", 1.2,{
   ease: "power3.inOut",
   opacity: 0,
   stagger: 0.2,
+  delay: 0
   // width: 0
 })
+
+
+
 
 
 gsap.from("#Footer", 1.2, {
@@ -291,6 +307,7 @@ gsap.from("#img1", 1.5, {
   scale: 1,
   ease: "power3.inOut",
   opacity: 0,
+  delay: 1,
 });
 
 
@@ -390,3 +407,9 @@ gsap.from("#img7, #video7 ", 1.5, {
 
 
 
+var video = document.getElementById("video1");
+video.addEventListener("canplay", function() {
+  setTimeout(function() {
+    video.play();
+  }, 1500);
+});

@@ -14,10 +14,15 @@ body {
     /* overflow: hidden; */
     cursor: crosshair;
     /* background-color: aqua; */
+    background: url("/assets/Logo/bg.png");
+    /* filter: blur(10px); */
+    z-index: -1;
  
 }
 
-
+.background {
+    
+}
 
 body::-webkit-scrollbar {
     display: none;
@@ -291,10 +296,7 @@ video, .video{
     background-color: #ffffff;
     width: 0%;
     height: 100%;
-    background: url("/assets/Logo/bg.png") 100% 100%;
-    top: 0;
-    left: 0;
-    background-repeat: repeat;
+
 }
 
 .load-container {

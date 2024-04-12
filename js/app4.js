@@ -109,7 +109,7 @@ gsap.from(" .block", 1.2, {
   width: "0px",
   // scale: 1,
   ease: "power3.inOut",
-  delay:2,
+  delay:0,
   stagger: 0.2,
 });
 

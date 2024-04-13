@@ -416,7 +416,6 @@ video, .video{
     .hello{
         visibility: hidden;
     }
-    
 }
 
 
@@ -426,22 +425,18 @@ video, .video{
         /* color: #08ff14; */
         font-size: 42px;
     }
-
     .block {
         width: 100px;
         height: 100px;
     }
-
     .text{
         margin: 110px 0;
     }
-
     #img1{
         height: 10px;
         background-color: aqua;
         /* opacity: 0; */
     }
-
     .header_container {
         gap: 30px;
     }

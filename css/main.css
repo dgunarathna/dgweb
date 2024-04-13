@@ -353,6 +353,10 @@ video, .video{
     top:37%;
     right: 47.5%;
     /* background-color: rgb(145, 255, 0); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .top-right{
@@ -361,6 +365,10 @@ video, .video{
     top:37%;
     right: 47.5%;
     /* background-color: rgb(145, 255, 0); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .bottom-left{
@@ -369,6 +377,10 @@ video, .video{
     top:37%;
     right: 47.5%;
     /* background-color: rgb(255, 0, 234); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .bottom-right{
@@ -377,6 +389,10 @@ video, .video{
     top:37%;
     right: 47.5%;
     /* background-color: rgb(255, 115, 0); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
 

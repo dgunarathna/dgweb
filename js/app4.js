@@ -1,3 +1,75 @@
+
+//preloader
+
+
+gsap.from(".letter", 0.8,{
+  y: 20,
+  opacity: 0,
+  ease: "power3.inOut",
+  stagger: 0.1,
+});
+
+
+// gsap.to(".top-left, .top-right", 2,{
+//   top: "0",
+//   ease: "power3.inOut",
+//   delay: 2,
+// });
+
+gsap.to(".bottom-left, .bottom-right", 2,{
+  bottom: "0%",
+  ease: "power3.inOut",
+  delay: 1,
+});
+
+
+gsap.to(".top-left", 2,{
+  // left: "-100",
+  ease: "power3.inOut",
+  delay: 0.8,
+  opacity: 0,
+});
+
+gsap.to(".top-right", 2,{
+  // right: "-100",
+  ease: "power3.inOut",
+  delay: 0.8,
+  opacity: 0,
+});
+
+gsap.to(".bottom-left", 2,{
+  // left: "-100",
+  ease: "power3.inOut",
+  delay: 0.8,
+  opacity: 0,
+});
+
+gsap.to(".bottom-right", 2,{
+  // right: "-100",
+  ease: "power3.inOut",
+  delay: 0.8,
+  opacity: 0,
+});
+
+
+
+gsap.to(".block-left", 2,{
+  left: "-50%",
+  ease: "power3.inOut",
+  delay: 1,
+});
+
+
+gsap.to(".block-right", 2,{
+  right: "-50%",
+  ease: "power3.inOut",
+  delay: 1,
+});
+
+
+
+// preloader
+
 var windowWidth = $(window).width();
 
 $(".page-container").mousemove(function (event) {
@@ -61,7 +133,7 @@ gsap.from(" .block", 1.2, {
   width: "0px",
   // scale: 1,
   ease: "power3.inOut",
-  delay: 1,
+  delay: 2.2,
   stagger: 0.2,
 });
 
@@ -79,14 +151,14 @@ gsap.from(".text", 1.2, {
   y: 30,
   ease: "power3.inOut",
   opacity: 0,
-  delay: 1.5,
+  delay: 2.5,
   
 });
 
 
-gsap.from(".header_container", 1.2, {
+gsap.from(".header1", 1.2, {
   scrollTrigger: {
-    trigger: ".header_container",
+    trigger: ".header1",
     // scrub: 1,
     // markers: true,
     start: "top bottom",
@@ -97,7 +169,7 @@ gsap.from(".header_container", 1.2, {
   y: -30,
   ease: "power3.inOut",
   opacity: 0,
-  delay: 1.2,
+  delay: 2,
   
 });
 
@@ -413,66 +485,3 @@ video.addEventListener("canplay", function() {
   }, 1500);
 });
 
-
-//preloader
-
-
-gsap.from(".letter", 0.8,{
-  y: 20,
-  opacity: 0,
-  ease: "power3.inOut",
-  stagger: 0.1,
-});
-
-
-
-// gsap.to(".top-left, .top-right", 2,{
-//   top: "0",
-//   ease: "power3.inOut",
-//   delay: 2,
-// });
-
-gsap.to(".bottom-left, .bottom-right", 2,{
-  bottom: "0%",
-  ease: "power3.inOut",
-  delay: 2,
-});
-
-
-gsap.to(".top-left", 2,{
-  left: "-100",
-  ease: "power3.inOut",
-  delay: 4,
-});
-
-gsap.to(".top-right", 2,{
-  right: "-100",
-  ease: "power3.inOut",
-  delay: 4,
-  
-});
-
-gsap.to(".bottom-left", 2,{
-  left: "-100",
-  ease: "power3.inOut",
-  delay: 4,
-});
-
-gsap.to(".bottom-right", 2,{
-  right: "-100",
-  ease: "power3.inOut",
-  delay: 4,
-});
-
-gsap.to(".block-left", 2,{
-  left: "-50%",
-  ease: "power3.inOut",
-  delay: 4,
-});
-
-
-gsap.to(".block-right", 2,{
-  right: "-50%",
-  ease: "power3.inOut",
-  delay: 4,
-});

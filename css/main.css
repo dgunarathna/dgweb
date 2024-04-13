@@ -12,6 +12,7 @@ body {
     /* overflow: hidden; */
     cursor: crosshair;
     /* background-color: aqua; */
+    /* background: url("/assets/Logo/bg.png"); */
 }
 
 body::-webkit-scrollbar {

@@ -384,12 +384,10 @@ video, .video{
         font-size: 60px;
         /* color: #ff0808; */
     }
-
     .block {
         width: 200px;
         height: 200px;
     }
-    
     .text{
         margin: 210px 0;
     }
@@ -402,21 +400,16 @@ video, .video{
         /* color: #033eff; */
         font-size: 60px;
     }
-
-
     .block {
         width: 150px;
         height: 150px;
     }
-
     .text{
         margin: 160px 0;
     }
-
     #gap{
         gap: 50px;
     }
-
     /* .row{
         text-align: center;
     } */
@@ -452,11 +445,4 @@ video, .video{
     .header_container {
         gap: 30px;
     }
-
-   
-
-
-
-
- 
 }

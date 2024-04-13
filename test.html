@@ -146,13 +146,14 @@
   </div>
   <div class="letters">
     <div class="row">
-      <!-- <div class="letter top-left">T</div> -->
+      <!-- <div class="letter top-left">DHANUSHKA</div> -->
+      <!-- <div class="letter top-right">USHKA</div> -->
       <img class="letter top-left" src="/assets/Logo/d.png" alt="">
       <img class="letter top-right" src="/assets/Logo/g.png" alt="">
-      <!-- <div class="letter top-right">2</div> -->
     </div>
     <div class="row">
-      <!-- <div class="letter bottom-right">7</div> -->
+      <!-- <div class="letter bottom-left">GUNARATHNA</div> -->
+      <!-- <div class="letter bottom-right">ATHNA</div> -->
       <img class="letter bottom-left" src="/assets/Logo/dhanushka.png" alt="">
       <img class="letter bottom-right" src="/assets/Logo/gunarathna.png" alt="">
     </div>
@@ -193,6 +194,8 @@
 
   .block-left{
     left: 0;
+    /* background-color: aqua; */
+
   }
 
   .block-right{
@@ -239,16 +242,16 @@
   .bottom-left{
     margin: 0;
     padding: 0;
+    top:37%;
     right: 46.5%;
-    bottom: 37.5%;
     /* background-color: rgb(255, 0, 234); */
   }
 
   .bottom-right{
     margin: 0;
     padding: 0;
+    top:37%;
     right: 46.5%;
-    bottom: 37.5%;
     /* background-color: rgb(255, 115, 0); */
   }
 
@@ -262,12 +265,15 @@
 
 <script>
 
-  // gsap.from(".letter", 0.8,{
-  //   y: 20,
-  //   opacity: 0,
-  //   ease: "power3.inOut",
-  //   stagger: 0.1,
-  // });
+
+  gsap.from(".letter", 0.8,{
+    y: 20,
+    opacity: 0,
+    ease: "power3.inOut",
+    stagger: 0.1,
+  });
+
+ 
 
   // gsap.to(".top-left, .top-right", 2,{
   //   top: "0",
@@ -275,50 +281,50 @@
   //   delay: 2,
   // });
 
-  // gsap.to(".bottom-left, .bottom-right", 2,{
-  //   bottom: "0%",
-  //   ease: "power3.inOut",
-  //   delay: 2,
-  // });
+  gsap.to(".bottom-left, .bottom-right", 2,{
+    bottom: "0%",
+    ease: "power3.inOut",
+    delay: 2,
+  });
 
 
-  // gsap.to(".top-left", 2,{
-  //   left: "-100",
-  //   ease: "power3.inOut",
-  //   delay: 4,
-  // });
+  gsap.to(".top-left", 2,{
+    left: "-100",
+    ease: "power3.inOut",
+    delay: 4,
+  });
 
-  // gsap.to(".top-right", 2,{
-  //   right: "-100",
-  //   ease: "power3.inOut",
-  //   delay: 4,
+  gsap.to(".top-right", 2,{
+    right: "-100",
+    ease: "power3.inOut",
+    delay: 4,
     
-  // });
+  });
 
-  // gsap.to(".bottom-left", 2,{
-  //   left: "-100",
-  //   ease: "power3.inOut",
-  //   delay: 4,
-  // });
+  gsap.to(".bottom-left", 2,{
+    left: "-100",
+    ease: "power3.inOut",
+    delay: 4,
+  });
 
-  // gsap.to(".bottom-right", 2,{
-  //   right: "-100",
-  //   ease: "power3.inOut",
-  //   delay: 4,
-  // });
+  gsap.to(".bottom-right", 2,{
+    right: "-100",
+    ease: "power3.inOut",
+    delay: 4,
+  });
 
-  // gsap.to(".block-left", 2,{
-  //   left: "-50%",
-  //   ease: "power3.inOut",
-  //   delay: 4,
-  // });
+  gsap.to(".block-left", 2,{
+    left: "-50%",
+    ease: "power3.inOut",
+    delay: 4,
+  });
 
 
-  // gsap.to(".block-right", 2,{
-  //   right: "-50%",
-  //   ease: "power3.inOut",
-  //   delay: 4,
-  // });
+  gsap.to(".block-right", 2,{
+    right: "-50%",
+    ease: "power3.inOut",
+    delay: 4,
+  });
 
 
 

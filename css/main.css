@@ -294,6 +294,7 @@ video, .video{
     background: #ffffff;
     /* background: url("/assets/Logo/bg.png"); */
     z-index: 1000;
+    overflow: hidden;
 }
 
 

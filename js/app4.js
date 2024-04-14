@@ -283,6 +283,34 @@ gsap.from("#Title4", 1.2, {
   opacity: 0,
 });
 
+gsap.from("#Title5", 1.2, {
+  scrollTrigger: {
+    trigger: "#Title5",
+    // scrub: 1,
+    // markers: true,
+    start: "top bottom",
+    end: "top center",
+    toggleActions: "play none none none",
+  },
+  x: -200,
+  ease: "power3.inOut",
+  opacity: 0,
+});
+
+gsap.from("#Title6", 1.2, {
+  scrollTrigger: {
+    trigger: "#Title6",
+    // scrub: 1,
+    // markers: true,
+    start: "top bottom",
+    end: "top center",
+    toggleActions: "play none none none",
+  },
+  x: 200,
+  ease: "power3.inOut",
+  opacity: 0,
+});
+
 gsap.from("#Projects", 1.2, {
   scrollTrigger: {
     trigger: "#Projects",
@@ -473,6 +501,23 @@ gsap.from("#img7, #video7 ", 1.5, {
   ease: "power3.inOut",
   opacity: 0,
 });
+
+
+gsap.from("#img8", 1.5, {
+  scrollTrigger: {
+    trigger: " #img8",
+    // markers: true,
+    start: "top bottom",
+    end: "top center",
+    // scrub: 1,
+    toggleActions: "play none none none",
+  },
+  x: -200,
+  scale: 1,
+  ease: "power3.inOut",
+  opacity: 0,
+});
+
 
 // img with 100 -----------------------------------------
 

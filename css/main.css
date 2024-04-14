@@ -37,6 +37,7 @@ label,
     mix-blend-mode: difference;
     border: none;
     /* background-color: aqua; */
+    z-index: 1000;
 }
 
 h1 {
@@ -214,10 +215,6 @@ a:hover {
     margin: 50px 0px;
 }
 
-video{
-    margin-bottom: 50px;
-    mix-blend-mode: difference;
-}
 
 .line {
     height: 1px;
@@ -272,7 +269,9 @@ img{
 }
 
 video, .video{
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
+    z-index: -1000;
+    margin-bottom: 50px;
 }
 
 
@@ -444,6 +443,7 @@ video, .video{
     h1 {
         /* color: #08ff14; */
         font-size: 42px;
+        /* text-align: center; */
     }
     .block {
         width: 100px;

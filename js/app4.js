@@ -1,4 +1,8 @@
 
+
+
+
+
 //preloader
 
 
@@ -269,6 +273,20 @@ gsap.from("#Title3", 1.2, {
   opacity: 0,
 });
 
+gsap.from("#Titlepersona", 1.2, {
+  scrollTrigger: {
+    trigger: "#Titlepersona",
+    // scrub: 1,
+    // markers: true,
+    start: "top bottom",
+    end: "top center",
+    toggleActions: "play none none none",
+  },
+  x: -200,
+  ease: "power3.inOut",
+  opacity: 0,
+});
+
 gsap.from("#Title4", 1.2, {
   scrollTrigger: {
     trigger: "#Title4",
@@ -427,6 +445,7 @@ gsap.from("#img2", 1.5, {
   opacity: 1,
 });
 
+
 gsap.from("#img3", 1.5, {
   scrollTrigger: {
     trigger: " #img3",
@@ -445,6 +464,21 @@ gsap.from("#img3", 1.5, {
 gsap.from("#img4", 1.5, {
   scrollTrigger: {
     trigger: " #img4",
+    // markers: true,
+    start: "top bottom",
+    end: "top center",
+    // scrub: 1,
+    toggleActions: "play none none none",
+  },
+  x: 200,
+  scale: 1,
+  ease: "power3.inOut",
+  opacity: 0,
+});
+
+gsap.from("#imgpersona", 1.5, {
+  scrollTrigger: {
+    trigger: " #imgpersona",
     // markers: true,
     start: "top bottom",
     end: "top center",
@@ -530,3 +564,5 @@ video.addEventListener("canplay", function() {
   }, 1500);
 });
 
+
+hypeDocument.getElementById(".video").volume = 1.0;

@@ -563,14 +563,10 @@ var video = document.getElementById("video1");
 video.addEventListener("canplay", function() {
   setTimeout(function() {
     video.play();
-  }, 1500);
+  }, 5500);
 });
 
 
 
 
 
-var video = document.getElementsById("videoID");
-video.setAttribute("playsinline", "");
-video.setAttribute("muted", "");
-video.play();

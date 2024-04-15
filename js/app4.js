@@ -93,10 +93,6 @@ blocks.forEach(function (block) {
 });
 
 //----------------------------------------
-var video = document.getElementsById("videoID");
-video.setAttribute("playsinline", "");
-video.setAttribute("muted", "");
-video.play();
 
 
 
@@ -570,3 +566,11 @@ video.addEventListener("canplay", function() {
   }, 1500);
 });
 
+
+
+
+
+var video = document.getElementsById("videoID");
+video.setAttribute("playsinline", "");
+video.setAttribute("muted", "");
+video.play();

@@ -431,9 +431,7 @@ img{
     #gap{
         gap: 50px;
     }
-    /* .row{
-        text-align: center;
-    } */
+
     .hello{
         visibility: hidden;
     }

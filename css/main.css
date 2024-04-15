@@ -37,7 +37,7 @@ label,
     mix-blend-mode: difference;
     border: none;
     /* background-color: aqua; */
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 
 h1 {

@@ -93,6 +93,12 @@ blocks.forEach(function (block) {
 });
 
 //----------------------------------------
+var video = document.getElementsById("videoID");
+video.setAttribute("playsinline", "");
+video.setAttribute("muted", "");
+video.play();
+
+
 
 
 // const videos = document.querySelectorAll('.video');

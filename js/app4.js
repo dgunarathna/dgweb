@@ -559,12 +559,12 @@ gsap.from("#img8", 1.5, {
 
 
 
-var video = document.getElementById("video1");
-video.addEventListener("canplay", function() {
-  setTimeout(function() {
-    video.play();
-  }, 5500);
-});
+// var video = document.getElementById("video1");
+// video.addEventListener("canplay", function() {
+//   setTimeout(function() {
+//     video.play();
+//   }, 5500);
+// });
 
 
 

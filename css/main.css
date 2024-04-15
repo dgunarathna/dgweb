@@ -215,6 +215,10 @@ a:hover {
     margin: 50px 0px;
 }
 
+video{
+    margin-bottom: 50px;
+    /* mix-blend-mode: difference; */
+}
 
 .line {
     height: 1px;
@@ -270,8 +274,6 @@ img{
 
 video, .video{
     /* mix-blend-mode: difference; */
-    z-index: -1000;
-    margin-bottom: 50px;
 }
 
 

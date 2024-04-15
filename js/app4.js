@@ -564,5 +564,3 @@ video.addEventListener("canplay", function() {
   }, 1500);
 });
 
-
-hypeDocument.getElementById(".video").volume = 1.0;

@@ -6,69 +6,69 @@
 //preloader
 
 
-gsap.from(".letter", 0.8,{
-  y: 20,
-  opacity: 0,
-  ease: "power3.inOut",
-  stagger: 0.1,
-});
-
-
-// gsap.to(".top-left, .top-right", 2,{
-//   top: "0",
+// gsap.from(".letter", 0.8,{
+//   y: 20,
+//   opacity: 0,
 //   ease: "power3.inOut",
-//   delay: 2,
+//   stagger: 0.1,
 // });
 
-gsap.to(".bottom-left, .bottom-right", 2,{
-  bottom: "0%",
-  ease: "power3.inOut",
-  delay: 1,
-});
+
+// // gsap.to(".top-left, .top-right", 2,{
+// //   top: "0",
+// //   ease: "power3.inOut",
+// //   delay: 2,
+// // });
+
+// gsap.to(".bottom-left, .bottom-right", 2,{
+//   bottom: "0%",
+//   ease: "power3.inOut",
+//   delay: 1,
+// });
 
 
-gsap.to(".top-left", 2,{
-  // left: "-100",
-  ease: "power3.inOut",
-  delay: 0.8,
-  opacity: 0,
-});
+// gsap.to(".top-left", 2,{
+//   // left: "-100",
+//   ease: "power3.inOut",
+//   delay: 0.8,
+//   opacity: 0,
+// });
 
-gsap.to(".top-right", 2,{
-  // right: "-100",
-  ease: "power3.inOut",
-  delay: 0.8,
-  opacity: 0,
-});
+// gsap.to(".top-right", 2,{
+//   // right: "-100",
+//   ease: "power3.inOut",
+//   delay: 0.8,
+//   opacity: 0,
+// });
 
-gsap.to(".bottom-left", 2,{
-  // left: "-100",
-  ease: "power3.inOut",
-  delay: 0.8,
-  opacity: 0,
-});
+// gsap.to(".bottom-left", 2,{
+//   // left: "-100",
+//   ease: "power3.inOut",
+//   delay: 0.8,
+//   opacity: 0,
+// });
 
-gsap.to(".bottom-right", 2,{
-  // right: "-100",
-  ease: "power3.inOut",
-  delay: 0.8,
-  opacity: 0,
-});
-
-
-
-gsap.to(".block-left", 2,{
-  left: "-50%",
-  ease: "power3.inOut",
-  delay: 1,
-});
+// gsap.to(".bottom-right", 2,{
+//   // right: "-100",
+//   ease: "power3.inOut",
+//   delay: 0.8,
+//   opacity: 0,
+// });
 
 
-gsap.to(".block-right", 2,{
-  right: "-50%",
-  ease: "power3.inOut",
-  delay: 1,
-});
+
+// gsap.to(".block-left", 2,{
+//   left: "-50%",
+//   ease: "power3.inOut",
+//   delay: 1,
+// });
+
+
+// gsap.to(".block-right", 2,{
+//   right: "-50%",
+//   ease: "power3.inOut",
+//   delay: 1,
+// });
 
 
 
@@ -113,18 +113,18 @@ blocks.forEach(function (block) {
 
 
 
-gsap.from(".reveler", 1,{
-  width: "0",
-  ease: "power3.inOut",
-  delay: 0,
-})
+// gsap.from(".reveler", 1,{
+//   width: "0",
+//   ease: "power3.inOut",
+//   delay: 0,
+// })
 
 
-gsap.to(".reveler", 0.8,{
-  left: "100%",
-  ease: "power3.inOut",
-  delay: 1,
-})
+// gsap.to(".reveler", 0.8,{
+//   left: "100%",
+//   ease: "power3.inOut",
+//   delay: 1,
+// })
 
 
 // animation-----------------------------------------

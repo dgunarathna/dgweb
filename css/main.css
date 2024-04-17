@@ -103,7 +103,7 @@ a:hover {
     position: fixed;
     /* background-color: rgba(0, 0, 0, 0.5); */
     gap: 60px;
-    /* backdrop-filter: blur(5px); */
+    backdrop-filter: blur(5px);
 }
 
 .header_container-white {
@@ -225,7 +225,7 @@ video{
 .line {
     height: 1px;
     width: 100%;
-    background-color: #101010;
+    background-color: #ffffff;
     position: relative;
 }
 

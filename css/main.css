@@ -6,15 +6,10 @@
 
 body {
     background: #101010;
-    /* background: #f3f3f3; */
-    /* background: #1b1c1d; */
     height: 100vh;
     width: 100%;
     margin: 0%;
-    /* overflow: hidden; */
     cursor: crosshair;
-    /* background-color: aqua; */
-    /* background: url("/assets/Logo/bg.png"); */
 }
 
 body::-webkit-scrollbar {
@@ -73,47 +68,34 @@ h6 {
     font-size: 6px;
 }
 
-li, .projects > a {
-    text-decoration: none;
-    list-style: none;
-    font-family: "Clash Display", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #ffffff;
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: center;
-    width: 80px;
+
+
+
+
+
+.header{
+    
 }
 
-a:hover {
-    cursor: crosshair;
-}
 
-.header_container {
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0px;
-    width: 100%;
-    height: 70px;
-    filter: brightness(1);
-    mix-blend-mode: difference;
-    position: fixed;
-    /* background-color: rgba(0, 0, 0, 0.5); */
-    gap: 60px;
-    backdrop-filter: blur(5px);
-}
 
-.header_container-white {
-    background-color: #ffffff;
-}
 
-.logo {
-    width: auto;
-    height: 40px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .projects {
     /* background-color: aqua; */

@@ -73,14 +73,51 @@ h6 {
 
 
 
-.header{
+.header_container{
+    margin: 0;
+    padding: 0 40px 0 40px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo1{
+    
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
     
 }
 
 
 
+.right-bar{
+    width: auto;
+    height: auto;
+    background-color: rgb(217, 255, 0);
+    
+}
+
+li {
+    
+    list-style: none;
+    background-color: #e21111;
+}
 
 
+a{
+    text-decoration: none;
+    font-family: "Clash Display", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
 
 
 

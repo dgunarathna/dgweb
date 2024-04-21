@@ -519,7 +519,7 @@ img{
     }
 
     .header_container{
-        filter: blur(8px);
+        backdrop-filter: blur(5px);
     }
 
     .logo1{

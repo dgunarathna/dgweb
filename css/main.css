@@ -518,6 +518,10 @@ img{
 
     }
 
+    .header_container{
+        filter: blur(8px);
+    }
+
     .logo1{
         padding: 12px 8px 8px 8px;
         width: 44px;

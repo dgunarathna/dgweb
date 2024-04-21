@@ -81,15 +81,15 @@ h6 {
     width: 100%;
     height: auto;
     z-index: 2;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
 }
 
 
 .logo1{
-    
-    width: auto;
+    padding: 24px 8px 8px 8px;
+    width: 64px;
     height: auto;
     background-color: #ffffff;
     
@@ -100,14 +100,16 @@ h6 {
 .right-bar{
     width: auto;
     height: auto;
-    background-color: rgb(217, 255, 0);
+    /* background-color: rgb(217, 255, 0); */
+    display: flex;
+    align-items: center;
     
 }
 
 li {
     
     list-style: none;
-    background-color: #e21111;
+    /* background-color: #e21111; */
 }
 
 
@@ -124,6 +126,9 @@ a{
 
 
 
+a:hover{
+    text-decoration: underline;
+}
 
 
 
@@ -345,7 +350,7 @@ img{
     width: 50%;
     height: 100vh;
     z-index: 0;
-    background: #fff;
+    background: #101010;
   }
 
   .block-left{

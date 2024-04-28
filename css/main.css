@@ -224,7 +224,7 @@ a:hover{
 .block:nth-child(2) {
     top: 45%;
     left: 25%;
-    background: url("/assets/aboutme/1.png") no-repeat 50%, 50%;
+    background: url("/assets/Groceryapp/1.png") no-repeat 50%, 50%;
     background-size: cover;
 }
 

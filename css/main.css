@@ -215,7 +215,7 @@ a:hover{
 .block:nth-child(1) {
     top: 10%;
     left: 3%;
-    background: url("/assets/Onesyntax/1.png") no-repeat 50%, 50%;
+    background: url("/assets/home/onesyntax.png") no-repeat 50%, 50%;
     background-size: cover;
     z-index: 10;
     /* border: #c8ff00 1px solid; */
@@ -224,21 +224,21 @@ a:hover{
 .block:nth-child(2) {
     top: 45%;
     left: 25%;
-    background: url("/assets/Groceryapp/1.png") no-repeat 50%, 50%;
+    background: url("/assets/home/grocerygo.png") no-repeat 50%, 50%;
     background-size: cover;
 }
 
 .block:nth-child(3) {
     top: 15%;
     left: 48%;
-    background: url("/assets/Documentor/1.png") no-repeat 50%, 50%;
+    background: url("/assets/home/documentor.png") no-repeat 50%, 50%;
     background-size: cover;
 }
 
 .block:nth-child(4) {
     top: 50%;
     left: 75%;
-    background: url("/assets/FreeX/1.png") no-repeat 50%, 50%;
+    background: url("/assets/home/freex.png") no-repeat 50%, 50%;
     background-size: cover;
 }
 

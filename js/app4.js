@@ -586,7 +586,6 @@ gsap.from("#img8", 1.5, {
 const unmuteVideo = ()=>{
   let x = document.querySelector(".video")
   x.muted = false;
-  
 }
 
 

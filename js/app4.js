@@ -568,18 +568,16 @@ gsap.from("#img8", 1.5, {
 
 
 
-function videoPlay() {
-  const video = document.querySelector("video"); // Select the video element
-  if (video) {
-      video.play(); // Play the video
-      console.log("Video playing.");
-  }
-}
+// function videoPlay() {
+//   const video = document.querySelector("video"); // Select the video element
+//   if (video) {
+//       video.muted(); // Play the video
+//   }
+// }
 
-function videoPause() {
-  const video = document.querySelector("video"); // Select the video element
-  if (video) {
-      video.pause(); // Pause the video
-      console.log("Video paused.");
-  }
-}
+// function videoPause() {
+//   const video = document.querySelector("video"); // Select the video element
+//   if (video) {
+//       video.muted(); // Pause the video
+//   }
+// }

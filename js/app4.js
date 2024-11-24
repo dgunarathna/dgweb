@@ -1,8 +1,6 @@
 
 
 
-
-
 //preloader
 
 
@@ -97,18 +95,7 @@ blocks.forEach(function (block) {
 
 
 
-// const videos = document.querySelectorAll('.video');
 
-// videos.forEach(video => {
-//   video.addEventListener('mouseenter', () => {
-//     video.play();
-//   });
-  
-//   video.addEventListener('mouseleave', () => {
-//     video.pause();
-//     video.currentTime = 0;
-//   });
-// });
 
 
 
@@ -558,6 +545,20 @@ gsap.from("#img8", 1.5, {
 
 
 
+// const videos = document.querySelectorAll('.video');
+
+// videos.forEach(video => {
+//   video.addEventListener('mouseenter', () => {
+//     video.play();
+//   });
+  
+//   video.addEventListener('mouseleave', () => {
+//     video.pause();
+//     video.currentTime = 0;
+//   });
+// });
+
+
 // var video = document.getElementById("video1");
 // video.addEventListener("canplay", function() {
 //   setTimeout(function() {
@@ -567,5 +568,18 @@ gsap.from("#img8", 1.5, {
 
 
 
+function videoPlay() {
+  const video = document.querySelector("video"); // Select the video element
+  if (video) {
+      video.play(); // Play the video
+      console.log("Video playing.");
+  }
+}
 
-
+function videoPause() {
+  const video = document.querySelector("video"); // Select the video element
+  if (video) {
+      video.pause(); // Pause the video
+      console.log("Video paused.");
+  }
+}

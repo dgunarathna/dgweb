@@ -114,7 +114,6 @@ blocks.forEach(function (block) {
 
 
 
-
 gsap.from(".reveler", 1,{
   width: "0",
   ease: "power3.inOut",

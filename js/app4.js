@@ -581,3 +581,17 @@ gsap.from("#img8", 1.5, {
 //       video.muted(); // Pause the video
 //   }
 // }
+
+
+const unmuteVideo = ()=>{
+  // alert("Hello world");
+  let x = document.querySelector(".video")
+  x.muted = false;
+  
+}
+
+
+const muteVideo = ()=>{
+  let x = document.querySelector(".video")
+  x.muted = true;
+}

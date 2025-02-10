@@ -218,7 +218,7 @@ a:hover{
 .block:nth-child(1) {
     top: 10%;
     left: 3%;
-    background: url("/assets/home/onesyntax.png") no-repeat 50%, 50%;
+    background: url("/assets/hamkerr/image.png") no-repeat 50%, 50%;
     background-size: cover;
     z-index: 10;
     /* border: #c8ff00 1px solid; */
